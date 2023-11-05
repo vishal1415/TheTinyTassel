@@ -1,0 +1,84 @@
+body{
+    background-image: url(the\ tiny\ tassel.png);
+    background-attachment:fixed;
+    background-size: cover;
+}
+color{
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+c{
+    color: rgb(43, 118, 43);
+}
+#home:hover{
+    color:#ff0077
+}
+
+.nav{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    flex-direction: row;
+    gap: 30px;
+}
+#log{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid rgb(175, 148, 148);
+    height: 30%;
+    width: 20%;
+    border-radius: 25px;
+}
+h1{
+    color:rgb(198, 113, 170);
+    letter-spacing: 5px;
+    font-size: 5cap;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h3{
+    text-align: center;
+    color:  rgb(170, 136, 201);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h4{
+    font-size: xx-large;
+}
+p{
+    text-align: left;
+    font-size: x-small;
+
+     color: rgb(229, 13, 13); 
+    
+    font-family:sans-serif;
+    
+}
+fieldset{
+    border: 0px solid white;
+    color : rgb(172, 94, 172);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+legend{
+    font-size: small;
+}
+input{
+    font-size: small;
+    border-radius: 5px;
+    border:2px solid rgb(175, 148, 148);
+}
+#submit {
+    
+    background-color:rgb(134, 36, 195)   ;
+    /* background-color: rgb(221, 41, 128); */
+    color: aliceblue;
+    height:59%;
+    width:50%;
+}
+#submit:hover{
+    background-color: #ff0077;
+}
+

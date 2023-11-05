@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stlye.css">
+    <script>
+        function Check(){
+        var pass = document.getElementById('pass').value
+        var confirmpass = document.getElementById("confirmpass").value
+        if(pass != confirmpass)
+        {
+            document.getElementById("out").innerHTML = "Those passwords didn't match.";
+        }
+        else{
+                    location.href='redirect.html'
+        }
+    }
+    </script>
+</head>
+<body>
+
+    <div class = container>
+    <div class = nav>
+        <a href="#"><h3 id =home>Home</h3></a>
+        <a href='#'><h3 id = home>Shop</h3></a>
+        <a href='#'><h3 id = home>Contact us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></a>
+    </div>
+    <h1 align="center">Become a Member</h1>
+    <h3>Become a member - don't miss out on deals, offers, discounts<br>and bonus vouchers</h3>
+    <center>
+    <div id="log">
+    
+    <h4>Sign up </h4>
+    <fieldset><legend>Name <color>*</color></legend>
+    <input type="text" name = 'name' required><br><br></fieldset>
+    <fieldset><legend>Email <color>*</color></legend>
+    <input type="Email" required><BR><br></fieldset>
+    <fieldset><legend>Username <color>*</color></legend>
+    <input type="text" required><br><br></fieldset>
+    <fieldset><legend>Password <color>*</color></legend>
+    <input id="pass" type="password" required><br></fieldset><br>
+    <fieldset><legend>Confirm Password <color>*</color></legend>
+    <input id='confirmpass' type="password" required><p id = "out"></p><br></fieldset>
+    <input id ='submit' type="submit" value="Become a Member" onclick="Check()"><br><br>
+</div>
+</div>
+<br>
+    </center>
+</body>
+</html>
